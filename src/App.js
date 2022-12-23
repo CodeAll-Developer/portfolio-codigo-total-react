@@ -15,7 +15,7 @@ function App() {
                 <Home/>
                 <About />
                 <Skills/>
-                <Services/>s
+                <Services/>
             </main>
         </>
     );
