@@ -2,6 +2,81 @@ import React from "react";
 
 export const Backend  = () =>{
     return(
-        <div>Backend</div>
+        <div className="skills__content">
+            <h3 className="skills__title">Backend</h3>
+            <div className="skills__box">
+                <div className="skills__group">
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Java - Spring Boot</h3>
+                            <span className="skills__level">Advanced</span>
+                        </div>
+                    </div>
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Node.js - Express.js</h3>
+                            <span className="skills__level">Advanced</span>
+                        </div>
+                    </div>
+
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">PHP</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">Python - Flask</h3>
+                            <span className="skills__level">Basic - Intermediate</span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div className="skills__group">
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">C++</h3>
+                            <span className="skills__level">Basic</span>
+                        </div>
+                    </div>
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">MongoDB</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
+                    {/*hablilidades*/}
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">MySQL</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
     )
 }
