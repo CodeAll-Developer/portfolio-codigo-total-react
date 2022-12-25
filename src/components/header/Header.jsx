@@ -5,8 +5,11 @@ import React, {useState} from 'react'
 import "./header.css";
 
 export const Header = () => {
+    // para que no hjalla pedos con la ventana
 
-    /*============= Toggle Menu================*/
+
+
+    //*============= Toggle Menu================*/
 
     //  usando states ;D -< cambiar el estado de un compoennte
     const [Toggle, showMenu] = useState(false); //valor. metodo a disparar para modificar la contante, valor inicial, no usar incrementos y derivados
