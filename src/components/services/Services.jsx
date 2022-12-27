@@ -18,7 +18,7 @@ export const Services = () =>{
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
-                        <h3 className="services__title">Product <br /> Designer </h3>
+                        <h3 className="services__title">Aplicaciones Web  <br /> MEARN and MEARN</h3>
                     </div>
                     <span className="services__button" onClick={()=>{
                         toggleTab(1)
@@ -90,7 +90,7 @@ export const Services = () =>{
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Ui/Ux <br /> Designer</h3>
+                        <h3 className="services__title">Aplicaciones Web <br /> API's</h3>
                     </div>
                     <span className="services__button" onClick={()=>{
                         toggleTab(2)
@@ -163,7 +163,7 @@ export const Services = () =>{
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
-                        <h3 className="services__title">Visual <br/> Designer</h3>
+                        <h3 className="services__title">UI/UX Web<br/> Visual Designer</h3>
                     </div>
                     <span className="services__button" onClick={()=>{
                         toggleTab(3)

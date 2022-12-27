@@ -23,6 +23,15 @@ export const Backend  = () =>{
                         </div>
                     </div>
 
+                    <div className="skills__data">
+                        <i className="bx bx-badge-check"></i>
+                        <div>
+                            <h3 className="skills__name">GIT</h3>
+                            <span className="skills__level">Intermediate</span>
+                        </div>
+                    </div>
+
+
                     {/*hablilidades*/}
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
@@ -32,8 +41,15 @@ export const Backend  = () =>{
                         </div>
                     </div>
 
-                    {/*hablilidades*/}
-                    <div className="skills__data">
+             
+
+                </div>
+
+
+                <div className="skills__group">
+
+                           {/*hablilidades*/}
+                           <div className="skills__data">
                         <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">Python - Flask</h3>
@@ -41,11 +57,6 @@ export const Backend  = () =>{
                         </div>
                     </div>
 
-
-                </div>
-
-
-                <div className="skills__group">
                     {/*hablilidades*/}
                     <div className="skills__data">
                         <i className="bx bx-badge-check"></i>

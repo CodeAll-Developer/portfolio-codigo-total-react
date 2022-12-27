@@ -17,8 +17,10 @@ export const About = () => {
                         <div className="about__data">
                             <Info />
                             <p className="about__description">
-                                Full-Stack developer, I create web pages with UI / UX user interface with Angular and logic with Spring Boot and Node.js
-                                I have years of experience and many clients are happy with the projects
+                            Soy un desarrollador web Full-stack con más de dos años de experiencia.
+                             Backend:  Java - Spring Boot y Node - Express, Frontend: Angular y React. 
+                             Diseñador UI/UX y gran habilidad para resolver problemas. Busco una empresa donde pueda mostrar mi potencial. ¡Contáctame! 😀
+
                             </p>
                             <a download="" href={CV} className="button button--flex">Download CV
                                 <svg

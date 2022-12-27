@@ -4,7 +4,7 @@ import React from "react";
 export const Data = () => {
     return (
         <div className="home__data">
-            <h1 className="home__title">Palacios Tarrillo Christian
+            <h1 className="home__title">I'm Full-Stack
 
                 <svg
                     width="36"
@@ -57,11 +57,10 @@ export const Data = () => {
                 </svg>
             </h1>
             <h3 className="home_subtitle">
-                Full-Stack Developer
+                Palacios Tarrillo Christian
             </h3>
             <p className="home__description">
-                Un desarrollador Full Stack es un profesional versátil capaz de desenvolverse en un desarrollo web tanto en la parte del cliente (Front End) como del servidor (Back End).
-
+            I am a full-stack web developer with more than two years of experience. Backend: Java - Spring Boot and Node - Express, Frontend: Angular and React. UI/UX designer and great problem solving skills. I am looking for a company where I can show my potential. Contact me! 😀
             </p>
             <a href={"#contact"} className="button button--flex">
                 Say Hello ;D

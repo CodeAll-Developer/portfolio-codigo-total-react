@@ -45,11 +45,16 @@ export const projectsNav = [
         name: 'all',
     },
     {
-        name: 'web',
+        name: 'app web',
     },
     {
-        name: 'app',
+        name: 'backend',
     },
+    {
+        name: 'web',
+    },
+    
+  
     {
         name: 'design',
     },
