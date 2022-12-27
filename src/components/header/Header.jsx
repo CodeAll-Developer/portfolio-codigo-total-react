@@ -23,7 +23,7 @@ export const Header = () => {
     const [Toggle, showMenu] = useState(false); //valor. metodo a disparar para modificar la contante, valor inicial, no usar incrementos y derivados
 
 
-    const [activeNav, setActiveNav] = useState("#about")
+    const [activeNav, setActiveNav] = useState("#home")
 
     return (
         <header className="header">

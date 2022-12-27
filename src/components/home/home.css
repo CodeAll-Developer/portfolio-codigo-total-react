@@ -21,12 +21,15 @@
 
 .home__social-icon {
     font-size: 1.2rem;
-    color: var(--title-color)
+    color: var(--title-color);
+    transition: .5s;
 }
 
 .home__social-icon:hover {
+    color: var(--title-color-dark);
+    transform: scaleX(2)  scaleY(2) rotate(360deg);
 
-    color: var(--title-color-dark)
+
 }
 
 /*home*/
@@ -68,35 +71,46 @@
 }
 
 .home__img {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/PalciosPrueba.jpeg");
+    background-image: linear-gradient(rgba(250, 229, 89, 0.14), rgba(32, 112, 155, 0.09)), url("../../assets/palaciossinmanos.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
 
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%); /*box shadpw interno*/
+    box-shadow: inset 0 0 0 9px rgb(42, 157, 143); /*box shadpw interno*/
     order: 1; /*le indicamos la posicion en la que queremos que se ubique*/
     justify-self: center;
     width: 300px;
     height: 300px;
-    animation: profile__animate 3s ease-in-out infinite 1ms;
+    animation: profile__animate 4s ease-in-out infinite 1ms;
 }
 
 
 @keyframes profile__animate {
     0% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        box-shadow: inset 0 0 0 9px rgb(42, 157, 143); /*box shadow interno*/
+    }
+    25%{
+        box-shadow: inset 0 0 0 9px rgb(255, 183, 3); /*box shadow interno*/
     }
     50% {
         border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+        box-shadow: inset 0 0 0 9px rgb(255, 255, 255); /*box shadow interno*/
+
+    }
+    75%{
+        box-shadow: inset 0 0 0 9px rgb(255, 183, 3); /*box shadow interno*/
     }
     100% {
         border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+        box-shadow: inset 0 0 0 9px rgb(42, 157, 143); /*box shadow interno*/
     }
 }
 
 .home__scroll {
     margin-left: 9.25rem;
+    color: var(--text-color);
 }
 
 .wheel {
@@ -174,7 +188,7 @@
         padding-top: 3.5rem;
     }
     .home__img{
-        order: initial; /*rden inicial*/
+        order: initial; /* inicial*/
         justify-self: initial;
     }
     .home__data{
