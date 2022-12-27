@@ -16,7 +16,6 @@ export const Works = () =>{
         }
         else{
             const newProjects = projectsData.filter((projects) => {
-                console.log(projects.category, " and ", item.name)
                 return projects.category.toLowerCase() === item.name;
             });
             setProjects(newProjects); //defenir el arreglo pero con lo que se halla elejido
@@ -33,7 +32,6 @@ export const Works = () =>{
        <div>
            <div className="work__filters">
                {projectsNav.map((item, index) => {
-                   console.log(index)
                    return <span onClick={
                        (e) => {
                            handleClick(e, index);

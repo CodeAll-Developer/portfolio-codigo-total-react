@@ -63,7 +63,7 @@ export const Data = () => {
                 Un desarrollador Full Stack es un profesional versátil capaz de desenvolverse en un desarrollo web tanto en la parte del cliente (Front End) como del servidor (Back End).
 
             </p>
-            <a href="#contact" className="button button--flex button__">
+            <a href={"#contact"} className="button button--flex">
                 Say Hello ;D
                 <svg
                     className="button__icon"

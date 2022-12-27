@@ -19,7 +19,11 @@ export const Contact = () => {
                     icon: 'success',
                 })
             }, (error) => {
-                console.log(error.text);
+                Swal.fire({
+                    title: 'Ocurrio un error!',
+                    text: 'Vuelva a cargar la pagina :c',
+                    icon: 'danger',
+                })
             });
     }
 

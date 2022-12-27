@@ -16,7 +16,7 @@ export const Frontend = () => {
                     </div>
                     {/*hablilidades*/}
                     <div className="skills__data">
-                        <i class="bx bx-badge-check"></i>
+                        <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">JavaScript</h3>
                             <span className="skills__level">Advanced</span>
@@ -26,7 +26,7 @@ export const Frontend = () => {
 
                     {/*hablilidades*/}
                     <div className="skills__data">
-                        <i class="bx bx-badge-check"></i>
+                        <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">Bootstrap</h3>
                             <span className="skills__level">Intermediate</span>
@@ -35,7 +35,7 @@ export const Frontend = () => {
 
                     {/*hablilidades*/}
                     <div className="skills__data">
-                        <i class="bx bx-badge-check"></i>
+                        <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">Figma</h3>
                             <span className="skills__level">Intermediate</span>
@@ -44,7 +44,7 @@ export const Frontend = () => {
 
                     {/*hablilidades*/}
                     <div className="skills__data">
-                        <i class="bx bx-badge-check"></i>
+                        <i className="bx bx-badge-check"></i>
                         <div>
                             <h3 className="skills__name">Photoshop</h3>
                             <span className="skills__level">Basic</span>

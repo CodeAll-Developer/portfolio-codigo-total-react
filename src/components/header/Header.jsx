@@ -29,14 +29,14 @@ export const Header = () => {
         <header className="header">
             <nav className="nav container">
 
-                <a href="#" className="nav__logo">Codigo Total</a>
-                {/* el otro lado  nav__menu */}
+                <a href={"#"} className="nav__logo">Codigo Total</a>
+
                 <div className={Toggle ? "nav__menu show-menu": "nav__menu"}>
                     <ul className="nav__list grid">
 
                         {/* elementos de la lista  */}
                         <li className="nav__item">
-                            <a href="#home" onClick={()=> setActiveNav(('#home'))} className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
+                            <a href={"#home"} onClick={()=> setActiveNav(('#home'))} className={activeNav === "#home" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-estate nav__icon"></i>
                                 Home
                             </a>
@@ -44,7 +44,7 @@ export const Header = () => {
 
                         {/* elementos de la lista  */}
                         <li className="nav__item">
-                            <a href="#about" onClick={()=> setActiveNav(('#about'))} className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}>
+                            <a href={"#about"} onClick={()=> setActiveNav(('#about'))} className={activeNav === "#about" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-user nav__icon"></i>
                                 About
                             </a>
@@ -52,7 +52,7 @@ export const Header = () => {
 
                         {/* elementos de la lista  */}
                         <li className="nav__item">
-                            <a href="#skills" onClick={()=> setActiveNav(('#skills'))} className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
+                            <a href={"#skills"} onClick={()=> setActiveNav(('#skills'))} className={activeNav === "#skills" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-file nav__icon"></i>
                                 Skills
                             </a>
@@ -60,7 +60,7 @@ export const Header = () => {
 
                         {/* elementos de la lista  */}
                         <li className="nav__item">
-                            <a href="#services" onClick={()=> setActiveNav(('#services'))} className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
+                            <a href={"#services"} onClick={()=> setActiveNav(('#services'))} className={activeNav === "#services" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-briefcase-alt nav__icon">
                                 </i>
                                 Service
@@ -70,15 +70,14 @@ export const Header = () => {
 
                         {/* elementos de la lista  */}
                         <li className="nav__item">
-                            <a href="#portfolio" onClick={()=> setActiveNav(('#portfolio'))} className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
+                            <a href={"#portfolio"} onClick={()=> setActiveNav(('#portfolio'))} className={activeNav === "#portfolio" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-scenery nav__icon"></i>
                                 Portfolio
                             </a>
                         </li>
 
-                        {/* elementos de la lista  */}
                         <li className="nav__item">
-                            <a href="#contact" onClick={()=> setActiveNav(('#contact'))} className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
+                            <a href={"#contact"} onClick={()=> setActiveNav(('#contact'))} className={activeNav === "#contact" ? "nav__link active-link" : "nav__link"}>
                                 <i className="uil uil-message nav__icon"></i>Contact
                             </a>
                         </li>
@@ -86,9 +85,9 @@ export const Header = () => {
                     <i className="uil uil-times nav__close" onClick={()=> showMenu(!Toggle)}></i>
 
                 </div>
-                {/* boton para ocultar y mostrar en mobiles  */}
+
                 <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
-                    <i className="uitl uil-apps"></i>
+                    <i className="uil uil-apps"></i>
                 </div>
             </nav>
         </header>
