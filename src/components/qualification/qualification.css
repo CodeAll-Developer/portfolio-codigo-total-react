@@ -14,10 +14,11 @@
     color: var(--title-color);
     margin: var(--mb-1);
     cursor: pointer;
+    transition: .3s;
 }
 
 .qualification__button:hover {
-    color: var(--title-color)
+    color: var(--title-color-dark)
 }
 
 .qualification__icon {
@@ -59,7 +60,6 @@
     display: inline-block;
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-1);
-
 }
 
 /*Part of point life*/
@@ -86,8 +86,12 @@
 .qualification__calender{
     display: flex;
     column-gap: 0.5rem;
+    color: rgba(212, 214, 217, 0.52);
 }
 
+.testimonial__card p{
+    color: var(--body-color);
+}
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

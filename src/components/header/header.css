@@ -65,7 +65,7 @@ header {
     }
 
     .nav {
-        height: var(--header-height);
+        height: 4rem;
     }
 
     .nav__menu {
@@ -76,12 +76,13 @@ header {
         width: 100%;
         /*el background sive para ocultar los demas elementos al ocupar el 100 porciento*/
         background-color: var(--body-color);
-        padding: 2rem 1.5rem 4rem;
+        padding: 4rem 1.5rem 5rem;
         /*indicamos poscion de sobresalto*/
         box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 
         border-radius: 1.5rem 1.5rem 0 0;
         transition: .3s;
+
 
     }
 
@@ -119,6 +120,10 @@ header {
     .nav__toggle{
         font-size: 1.1rem;
         cursor:pointer;
+    }
+
+    .nav__close:hover, .nav__toggle:hover{
+        color: #fca311;
     }
 
     .nav__icon,

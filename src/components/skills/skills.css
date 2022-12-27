@@ -15,6 +15,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 2rem 4rem;
     border-radius: 1.25rem;
+    box-shadow: 10px 10px 5px var(--title-color);
 }
 
 .skills__title {
@@ -66,6 +67,10 @@
     .skills__container {
         grid-template-columns: max-content;
         row-gap: 2rem
+    }
+    .skills__content{
+        box-shadow: 0 10px 5px var(--title-color);
+
     }
 
 

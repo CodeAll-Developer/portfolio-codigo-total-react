@@ -16,7 +16,7 @@
 }
 
 .scrollup__icon:hover {
-    color: var(--title-color-dark);
+    color: var(--body-color);
 }
 
 /*Mostrar el scroll*/
