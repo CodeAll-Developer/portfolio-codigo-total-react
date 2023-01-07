@@ -3,6 +3,14 @@
     row-gap: 7rem;
 }
 
+
+.home__title-name{
+    color: var(--title-color-dark);
+}
+
+
+
+
 /*Home*/
 .home__content {
     /*repetir dos veces */

@@ -31,10 +31,12 @@
 
 .work__card {
     background-color: var(--container-color);
-
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 1rem;
-    padding: 1.25rem;
+    padding:  1.25rem;
+    margin: 0 auto;
+   
+    
 }
 
 .work__img {
@@ -48,14 +50,17 @@
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     margin-bottom: var(--mb-0-5);
+
+
 }
 
 .work__button {
-    color: var(--title-color);
+    color: rgb(77, 77, 77);
     font-size: var(--smaller-font-size);
     display: flex;
     align-items: center;
     column-gap: 0.25rem;
+
 }
 
 .work__button-icon {
@@ -121,4 +126,7 @@
     .work__filters{
         column-gap: 0.25rem;
     }
+}
+.work__title{
+    font-weight: 900;
 }

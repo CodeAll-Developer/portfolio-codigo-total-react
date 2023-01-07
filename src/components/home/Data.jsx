@@ -1,11 +1,14 @@
 import React from "react";
 
+import Typical from 'react-typical'
+
 //Funcional Component
 export const Data = () => {
     return (
         <div className="home__data">
-            <h1 className="home__title">I'm Full-Stack
-
+            <h1 className="home__title ">Hi There,
+                <br/>
+                <span>I'm  Palacios Christian</span>
                 <svg
                     width="36"
                     height="36"
@@ -56,11 +59,22 @@ export const Data = () => {
                     ></path>
                 </svg>
             </h1>
-            <h3 className="home_subtitle">
-                Palacios Tarrillo Christian
+            <h3 className="home_subtitle" >
+                I'm  &nbsp;
+                <Typical
+                    steps={
+                    ['Full-Stack' , 2000,
+                        'Designer', 2000,
+                        'Backend', 2000,
+                        'Frontend', 2000
+                    ]
+                }
+                    loop={Infinity}
+                    wrapper="b"
+                />
             </h3>
             <p className="home__description">
-            I am a full-stack web developer with more than two years of experience. Backend: Java - Spring Boot and Node - Express, Frontend: Angular and React. UI/UX designer and great problem solving skills. I am looking for a company where I can show my potential. Contact me! 😀
+            Soy Full Stack Web developer. Gran conocimiento de las tecnologias actuales y siempre dispuesto a aprender cosas nuevas. Busco una empresa donde pueda mostrar mi potencial. ¡Contáctame! 😀
             </p>
             <a href={"#contact"} className="button button--flex">
                 Say Hello ;D
