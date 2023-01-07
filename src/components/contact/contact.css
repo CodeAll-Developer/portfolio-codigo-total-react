@@ -38,6 +38,7 @@
     margin-bottom: var(--mb-0-5);
 }
 
+
 .contact__card-icon {
     font-size: 2rem;
     color: var(--title-color);
@@ -101,7 +102,13 @@
     outline: none;
     border-radius: 0.75rem;
     padding: 1.5rem;
+   
     z-index: 1;
+}
+
+.error-input{
+    border: 3px dashed var(--title-color);
+    border-color: var(   --danger-input);
 }
 
 .contact__form-tag {

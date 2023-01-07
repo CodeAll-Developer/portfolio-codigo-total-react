@@ -14,6 +14,7 @@
   --text-color: #ffffff;
   --body-color: #001219;
   --container-color: #fff;
+  --danger-input: red;
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
