@@ -35,7 +35,7 @@ export const Services = () =>{
 
                             <h3 className="services__modal-title">Frontend</h3>
                             <p className="services__modal-description">
-                                Service with more than 2 years of experience. Providing quality work to my projects
+                                Service with more than 2 years of experience. Providing quality work to my projects.
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -108,28 +108,30 @@ export const Services = () =>{
 
                             <h3 className="services__modal-title">Backend</h3>
                             <p className="services__modal-description">
-                            Service with more than 2 years of experience. Providing quality work to my projects
+                            Service with more than 2 years of experience. Providing quality work to my projects.
                             </p>
 
                             <ul className="services__modal-services grid">
+                                {/* inut */}
+                           
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Idevelop the user interface.
+                                    Development of products with the language of Java and Node.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Web page development.
+                                    Database implementation with SQL or ORM with either MySQL or MongoDB.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I create ux element interactions.
+                                    Code management with GIT.
                                     </p>
                                 </li>
 
@@ -137,23 +139,25 @@ export const Services = () =>{
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I create ux element interactions.
+                                    Created API REST Services with Spring Boot and Express.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I position your company brand.
+                                    I create bots and consume information from web pages with Python
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Design and mockups of products for companies.
+                                    Deployment of applications on Heroku.
+
                                     </p>
                                 </li>
+                                {/*  */}
 
                             </ul>
                         </div>
