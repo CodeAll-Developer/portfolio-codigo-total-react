@@ -83,14 +83,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-
     box-shadow: inset 0 0 0 9px rgb(42, 157, 143); /*box shadpw interno*/
     order: 1; /*le indicamos la posicion en la que queremos que se ubique*/
     justify-self: center;
     width: 300px;
     height: 300px;
     animation: profile__animate 4s ease-in-out infinite 1ms;
+
 }
 
 

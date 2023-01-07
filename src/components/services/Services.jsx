@@ -35,7 +35,7 @@ export const Services = () =>{
 
                             <h3 className="services__modal-title">Frontend</h3>
                             <p className="services__modal-description">
-                                Service with more than 2 years of experience. Providing quality work to my projects.
+                                Service with more than 2 years of experience. Providing quality work to my projects
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -71,7 +71,7 @@ export const Services = () =>{
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                    Generate the components, modules, routing, security on the views and everything necessary that a project requires.
+                                    Generate the components, modules, routing, security in the views and everything necessary for a project.
                                     </p>
                                 </li>
 
@@ -108,7 +108,7 @@ export const Services = () =>{
 
                             <h3 className="services__modal-title">Backend</h3>
                             <p className="services__modal-description">
-                            Service with more than 2 years of experience. Providing quality work to my projects.
+                            Service with more than 2 years of experience. Providing quality work to my projects
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -124,7 +124,7 @@ export const Services = () =>{
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                    Database implementation with SQL or ORM with either MySQL or MongoDB.
+                                    Database implementation with SQL or ORM with MySQL or MongoDB.
                                     </p>
                                 </li>
 

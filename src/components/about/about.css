@@ -8,7 +8,9 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    box-shadow: -8px 8px 5px 2px var(--title-color);
 }
+
 
 .about__info {
     grid-template-columns: repeat(3, 1fr);
@@ -64,6 +66,8 @@
 
     .about__img {
         width: 220px;
+        box-shadow: 0px 0px 5px 5px var(--title-color);
+
 
     }
 
