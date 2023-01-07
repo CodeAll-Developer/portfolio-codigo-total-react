@@ -147,7 +147,7 @@ export const projectsData = [
         image: LoginRegisterMEAR,
         title: "Login/Register MEAR Stack ",
         category: "web",
-        gitUrl: "https://github.com/CodigoTotal01/AuthAppNode-MEAN"
+        gitUrl: "https://github.com/CodigoTotal01/Bienes-Raices-Auth-App-Node-MEAN"
     },
     {
         id: 5,

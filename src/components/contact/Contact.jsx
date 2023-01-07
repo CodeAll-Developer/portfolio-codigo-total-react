@@ -40,8 +40,8 @@ export const Contact = () => {
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">palaciostarrillochristian@gmail.com</span>
-                            <a href="mailto:palaciostarrillochristian@gmail.com"
+                            <span className="contact__card-data">codigototal01@gmail.com</span>
+                            <a href="mailto:codigototal01@gmail.com"
                                className="contact__button">Write me
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
@@ -52,7 +52,7 @@ export const Contact = () => {
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">WhatsApp</h3>
                             <span className="contact__card-data">949600685</span>
-                            <a href="https://api.whatsapp.com/send?phone=949600685&text=Hello, more information!"
+                            <a rel="noopener" href="https://api.whatsapp.com/send?phone=949600685&text=Hello, more information!"
                                className="contact__button">Write me
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
@@ -64,7 +64,7 @@ export const Contact = () => {
                             <i className="bx  bxl-linkedin contact__card-icon"></i>
                             <h3 className="contact__card-title">LinkedIn</h3>
                             <span className="contact__card-data">Código Total</span>
-                            <a href="https://www.linkedin.com/in/christian-eduardo-palacios-tarrillo-605a78217/"
+                            <a rel="noopener" href="https://www.linkedin.com/in/christian-eduardo-palacios-tarrillo-605a78217/"
                                className="contact__button">Write me
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>

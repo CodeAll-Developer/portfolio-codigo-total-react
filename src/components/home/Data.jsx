@@ -74,7 +74,8 @@ export const Data = () => {
                 />
             </h3>
             <p className="home__description">
-            Soy Full Stack Web developer. Gran conocimiento de las tecnologias actuales y siempre dispuesto a aprender cosas nuevas. Busco una empresa donde pueda mostrar mi potencial. ¡Contáctame! 😀
+            
+I am a Full Stack Web developer. Great knowledge of current technologies and always willing to learn new things. I am looking for a company where I can show my potential. Contact me! 😀
             </p>
             <a href={"#contact"} className="button button--flex">
                 Say Hello ;D

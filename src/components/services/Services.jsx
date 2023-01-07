@@ -18,7 +18,7 @@ export const Services = () =>{
                 <div className="services__content">
                     <div>
                         <i className="uil uil-web-grid services__icon"></i>
-                        <h3 className="services__title">Aplicaciones Web  <br /> MEARN and MEARN</h3>
+                        <h3 className="services__title">Aplicaciones Web <br /> MEAN and MERN</h3>
                     </div>
                     <span className="services__button" onClick={()=>{
                         toggleTab(1)
@@ -33,30 +33,30 @@ export const Services = () =>{
                             }}>
                             </i>
 
-                            <h3 className="services__modal-title">primero</h3>
+                            <h3 className="services__modal-title">Frontend</h3>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience.Providing quality work to clients and companies.
+                                Service with more than 2 years of experience. Providing quality work to my projects
                             </p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Idevelop the user interface.
+                                    I make from 0 the designs of the web pages.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Web page development.
+                                    I create Progressive Web Apps (PWA).
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I create ux element interactions.
+                                    I successfully use a third party template
                                     </p>
                                 </li>
 
@@ -64,21 +64,22 @@ export const Services = () =>{
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I create ux element interactions.
+                                    Consumption of API’s efficiently.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        I position your company brand.
+                                    Generate the components, modules, routing, security on the views and everything necessary that a project requires.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Design and mockups of products for companies.
+                                    I manage code management with Git.
+
                                     </p>
                                 </li>
 
@@ -90,7 +91,7 @@ export const Services = () =>{
                 <div className="services__content">
                     <div>
                         <i className="uil uil-arrow services__icon"></i>
-                        <h3 className="services__title">Aplicaciones Web <br /> API's</h3>
+                        <h3 className="services__title">Aplicaciones Web <br /> Creation API's</h3>
                     </div>
                     <span className="services__button" onClick={()=>{
                         toggleTab(2)
@@ -105,9 +106,9 @@ export const Services = () =>{
                             }}>
                             </i>
 
-                            <h3 className="services__modal-title">Segundo</h3>
+                            <h3 className="services__modal-title">Backend</h3>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience.Providing quality work to clients and companies.
+                            Service with more than 2 years of experience. Providing quality work to my projects
                             </p>
 
                             <ul className="services__modal-services grid">
@@ -163,7 +164,7 @@ export const Services = () =>{
                 <div className="services__content">
                     <div>
                         <i className="uil uil-edit services__icon"></i>
-                        <h3 className="services__title">UI/UX Web<br/> Visual Designer</h3>
+                        <h3 className="services__title">UI/UX Web<br/> Designer</h3>
                     </div>
                     <span className="services__button" onClick={()=>{
                         toggleTab(3)
@@ -178,33 +179,25 @@ export const Services = () =>{
                             }}>
                             </i>
 
-                            <h3 className="services__modal-title">Tercero</h3>
+                            <h3 className="services__modal-title">UI/UX Web Designer</h3>
                             <p className="services__modal-description">
-                                Service with more than 3 years of experience.Providing quality work to clients and companies.
+                                Service with more than 1 year of experience providing a good design inside of  my projects
                             </p>
 
                             <ul className="services__modal-services grid">
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Idevelop the user interface.
+                                    I design the user interface.
                                     </p>
                                 </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Web page development.
+                                    Web page design complete.
                                     </p>
                                 </li>
-
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">
-                                        I create ux element interactions.
-                                    </p>
-                                </li>
-
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
@@ -213,19 +206,15 @@ export const Services = () =>{
                                     </p>
                                 </li>
 
-                                <li className="services__modal-service">
-                                    <i className="uil uil-check-circle services__modal-icon"></i>
-                                    <p className="services__modal-info">
-                                        I position your company brand.
-                                    </p>
-                                </li>
 
                                 <li className="services__modal-service">
                                     <i className="uil uil-check-circle services__modal-icon"></i>
                                     <p className="services__modal-info">
-                                        Design and mockups of products for companies.
+                                    Design and mockups of products
                                     </p>
                                 </li>
+
+                            
 
                             </ul>
                         </div>

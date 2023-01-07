@@ -62,8 +62,9 @@ background-color: var(--title-color);
 .footer__copy{
     display: block;
     margin-top: 4.5rem;
-    color:var(--title-color);
+    color:var(--body-color);
     text-align: center;
     font-size: var(--smaller-font-size);
+
 }
 

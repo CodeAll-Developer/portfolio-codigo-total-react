@@ -17,10 +17,13 @@ export const About = () => {
                         <div className="about__data">
                             <Info />
                             <p className="about__description">
-                            Soy un desarrollador web Full-stack con más de dos años de experiencia.
-                             Backend:  Java - Spring Boot y Node - Express, Frontend: Angular y React. 
-                             Diseñador UI/UX y gran habilidad para resolver problemas. Busco una empresa donde pueda mostrar mi potencial. ¡Contáctame! 😀
-
+                            I am a full-stack web developer with more than two years of experience
+developing websites and web applications. I have a deep understanding of
+web technologies, as well as web application architecture and design.
+Specialized in Java, Spring Boot, Node, Express, GIT, MySQL, MongoDB,
+Angular, React and many more. I have a continuous learning mindset and am
+always looking for new ways to improve my skills. I am looking for a
+company where I can show my potential.
                             </p>
                             <a download="" href={CV} className="button button--flex">Download CV
                                 <svg
