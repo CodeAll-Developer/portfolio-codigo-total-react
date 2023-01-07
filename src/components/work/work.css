@@ -35,14 +35,15 @@
     border-radius: 1rem;
     padding:  1.25rem;
     margin: 0 auto;
-   
-    
 }
+
 
 .work__img {
     width: 295px;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
+
+    
 
 }
 

@@ -28,7 +28,10 @@ import BackJack from '../../assets/blackjack.png'
 import InstagramPython from '../../assets/instagrampython.jpg'
 import ClimaPython from '../../assets/clima.png'
 
+import FigmaAnime from '../../assets/figmaanime.png'
 
+
+import FigmaFooterHeader from '../../assets/figmafooterheader.png'
 export const projectsData = [
     //Angular, PHP , y demas
     {
@@ -60,36 +63,7 @@ export const projectsData = [
         gitUrl: "https://github.com/CodigoTotal01/cliente-app"
 
     },
-    {
-        id: 5,
-        image: PaisAppAngularAPI,
-        title: "Pais App Angular API",
-        category: "web",
-        gitUrl: "https://github.com/CodigoTotal01/Pais-App-Angular-API"
-    },
-    {
-        id: 6,
-        image: GifsAngular,
-        title: "Gifs App Angular",
-        category: "web",
-        gitUrl: "https://github.com/CodigoTotal01/Gifs-Angular"
-    },
-
-    {
-        id: 7,
-        image: PipesAngular,
-        title: "Pipes App Angular",
-        category: "web",
-        gitUrl: "https://github.com/CodigoTotal01/Pipes-Angular"
-    },
-
-    {
-        id: 8,
-        image: FormularioApp,
-        title: "Formulario App Angular",
-        category: "web",
-        gitUrl: "https://github.com/CodigoTotal01/Formulario-Angular"
-    },
+   
 
     {
         id: 9,
@@ -97,6 +71,13 @@ export const projectsData = [
         title: "WebSocket Chat Angular",
         category: "web",
         gitUrl: "https://github.com/CodigoTotal01/Chat-Angular-Spring-Frontend/blob/main/README.md"
+    },
+    {
+        id:25,
+        image: JAPANEXPRESSFrontend,
+        title: "Japan Express",
+        category: "web",
+        gitUrl: "https://github.com/CodigoTotal01/JAPAN-EXPRESS-Frontend"
     },
 
     // backent spring
@@ -169,11 +150,34 @@ export const projectsData = [
         gitUrl: "https://github.com/CodigoTotal01/AuthAppNode-MEAN"
     },
     {
-        id:19,
-        image: LoginRegisterMEAR,
-        title: "Login/Register MEAR Stack ",
-        category: "backend",
-        gitUrl: "https://github.com/CodigoTotal01/AuthAppNode-MEAN"
+        id: 5,
+        image: PaisAppAngularAPI,
+        title: "Pais App Angular API",
+        category: "web",
+        gitUrl: "https://github.com/CodigoTotal01/Pais-App-Angular-API"
+    },
+    {
+        id: 6,
+        image: GifsAngular,
+        title: "Gifs App Angular",
+        category: "web",
+        gitUrl: "https://github.com/CodigoTotal01/Gifs-Angular"
+    },
+
+    {
+        id: 7,
+        image: PipesAngular,
+        title: "Pipes App Angular",
+        category: "web",
+        gitUrl: "https://github.com/CodigoTotal01/Pipes-Angular"
+    },
+
+    {
+        id: 8,
+        image: FormularioApp,
+        title: "Formulario App Angular",
+        category: "web",
+        gitUrl: "https://github.com/CodigoTotal01/Formulario-Angular"
     },
        //php
     {
@@ -216,13 +220,7 @@ export const projectsData = [
         category: "web",
         gitUrl: "https://github.com/CodigoTotal01/Shop-Corp-Fronted"
     },
-    {
-        id:25,
-        image: JAPANEXPRESSFrontend,
-        title: "Japan Express",
-        category: "web",
-        gitUrl: "https://github.com/CodigoTotal01/JAPAN-EXPRESS-Frontend"
-    },
+
     //python 
     {
         id:26,
@@ -273,6 +271,23 @@ export const projectsData = [
         title: "Clima Message Phone Python",
         category: "backend",
         gitUrl: "https://github.com/CodigoTotal01/python-bot-message-phone-clima"
+    },
+
+    // desing
+    {
+        id:33,
+        image: FigmaAnime,
+        title: "Diseño de App Entretenimiento",
+        category: "design",
+        gitUrl: "https://github.com/CodigoTotal01/Figma-UI-UX-CodigoTotalPlay"
+    },
+
+    {
+        id:34,
+        image: FigmaFooterHeader,
+        title: "Diseño Tienda Virtual Header y Footer",
+        category: "design",
+        gitUrl: "https://github.com/CodigoTotal01/Figma-UI-UX-CodigoTotalPlay"
     },
 ];
 
