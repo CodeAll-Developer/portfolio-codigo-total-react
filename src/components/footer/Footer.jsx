@@ -6,7 +6,7 @@ export const Footer = () => {
     return(
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Codigo Total</h1>
+                <h1 className="footer__title">Código Total</h1>
                 <ul className="footer__list">
                     <li>
                         <a href={"#home"} className="footer__link">Home</a>

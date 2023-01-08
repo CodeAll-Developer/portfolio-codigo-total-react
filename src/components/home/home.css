@@ -20,15 +20,15 @@
     align-items: center;
 }
 
-.home__social {
+.home__social-group {
     display: grid;
     grid-template-columns: max-content; /*Depénde del elemento mas grande de la columna*/
     row-gap: 1rem;
 
 }
 
-.home__social-icon {
-    font-size: 1.2rem;
+ .home__social-icon {
+    font-size: 2rem;
     color: var(--title-color);
     transition: .5s;
 }
@@ -118,6 +118,7 @@
 .home__scroll {
     margin-left: 9.25rem;
     color: var(--text-color);
+    margin-top: 2rem;
 }
 
 .wheel {
@@ -185,6 +186,11 @@
         margin-left: 7.5rem;
     }
 
+    .home__social-icon {
+        font-size: 1.5rem;
+
+    }
+
 
 }
 
@@ -209,6 +215,10 @@
     }
     .home__scroll{
         display: none;
+    }
+    .home__social-icon {
+        font-size: 1.5rem;
+
     }
 }
 
