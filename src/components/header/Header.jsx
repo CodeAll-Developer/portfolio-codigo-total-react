@@ -29,7 +29,7 @@ export const Header = () => {
         <header className="header">
             <nav className="nav container">
 
-                <a href={"#"} className="nav__logo">Codigo Total</a>
+                <a href={"#"} className="nav__logo">Código Total</a>
 
                 <div className={Toggle ? "nav__menu show-menu": "nav__menu"}>
                     <ul className="nav__list grid">
